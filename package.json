@@ -1,17 +1,28 @@
 {
   "name": "updatedportfolio",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "seed": "node seed.js",
+    "seed:dev": "nodemon seed.js",
+    "start": "node index.js",
+    "server": "nodemon index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "morgan": "^1.10.0",
+    "pg": "^8.8.0",
+    "postgres": "^3.3.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "^5.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
   }
 }

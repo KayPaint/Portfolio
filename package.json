@@ -2,12 +2,10 @@
   "name": "updatedportfolio",
   "version": "1.0.2",
   "description": "",
-  "main": "index.js",
+  "main": "App.js",
   "scripts": {
-    "seed": "node seed.js",
-    "seed:dev": "nodemon seed.js",
-    "start": "node index.js",
-    "server": "nodemon index.js"
+    "start": "react-scripts start",
+    "build": "react-scripts build"
   },
   "keywords": [],
   "author": "",
@@ -20,9 +18,22 @@
     "postgres": "^3.3.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-router-dom": "^5.3.4",
     "react-scripts": "^5.0.1"
   },
   "devDependencies": {
     "nodemon": "^2.0.20"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }

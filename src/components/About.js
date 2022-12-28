@@ -3,7 +3,9 @@ import React from "react";
 const About = () => {
     return (
         <>
-            //TODO - About component here
+            <div>
+                <h1>About</h1>
+            </div>
         </>
     )
 }

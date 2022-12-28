@@ -3,7 +3,9 @@ import React from "react";
 const Projects = () => {
     return (
         <>
-            //TODO - Projects component here
+            <div>
+                <h1>Projects</h1>
+            </div>
         </>
     )
 }
